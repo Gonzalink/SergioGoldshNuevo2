@@ -1,0 +1,439 @@
+*{
+  box-sizing: border-box;
+  border: 0;
+  text-decoration: none;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+	font-size: 100%;
+  background-color: #F7C956;
+  margin-left: 0;
+}
+
+.titulo{
+  font-family: 'Pacifico',cursive;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.contenedor {
+background-color: #23BA00;
+overflow: hidden;
+
+}
+
+.separador{
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  margin-top: -18px;
+}
+
+.navicono{
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  color: black;
+  font-size: 1.7em;
+}
+
+
+li{
+  display: none;
+  text-align: center;
+  background-color: #87B3C1;
+  margin-right: 40px;
+  margin-bottom: 10px
+}
+
+li a{
+  display: inline-block;
+  color: blue;
+  font-family: 'Jua', sans-serif;
+  margin-bottom: 5px;
+}
+
+.cuerpo{
+  clear: both;
+  height: 430px;
+  margin-top: 90px;
+  /* border: solid 1.5px black; */
+}
+
+.cuerpo2{
+  clear: both;
+  height: 630px;
+  /* border: solid 1.5px black; */
+}
+
+.cuerpo img{
+  margin-left: 10px;
+  float: left;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.mqhimg{
+width: 50%;
+margin-left: 15px;
+margin-bottom: -50px;
+}
+
+.libroo{
+width: 35vw;
+height: 28vw;
+float:right;
+margin: 0 5px 0px 15px;
+}
+
+.cuerpo2 p{
+  font-size: 12px;
+  color: black;
+  margin-left: 5px;
+}
+
+.titulito {
+  font-size: 15px;
+  text-decoration: underline;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.arriba{
+  font-size: 9px;
+  border: solid 0.5px blue;
+  padding: 5px 5px;
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+display: none;
+}
+
+
+.texto1 {
+  font-size: 12px;
+  margin-left: 3px;
+  margin-top: -50px;
+}
+
+.texto2{
+font-size: 10px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+margin-left: 5px;
+}
+
+.redes span{
+  font-size: 15px;
+  float: left;
+  margin-left: 8px;
+  width: 15px;
+
+}
+.vermas:hover{
+  color: white;
+}
+
+.form{
+  height: 325px;
+  min-width: 300px;
+  max-height: 800px;
+  padding: 20px;
+  margin: 0 auto 0 auto;
+  background-color: lightgray;
+  border-radius: 15px;
+  position: relative;
+}
+.com{
+  width: 95%;
+  height: 35px;
+  padding-left: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+.enviar{
+  margin-top: 10px;
+  width: 50%;
+  height: 35px;
+  border: none;
+  -webkit-transition:cubic-bezier(.27, 0, .24, .93) .5s all;
+  background-color: #458df0;
+}
+.enviar:hover{
+  background-color: #0885D4;
+  color: white;
+}
+
+ @media (min-width:700px) {
+  li{
+
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+
+ul{
+  margin-top: 0;
+}
+
+.texto1{
+font-size: 25px;
+margin-left: 10px;
+}
+
+.texto2{
+font-size: 20px;
+
+}
+
+.navicono{
+  font-size: 2.5em;
+}
+
+.titulo{
+  font-size: 35px;
+}
+
+.cuerpo{
+  height: 530px;
+  margin-bottom: 200px;
+}
+
+.cuerpo2{
+  height: 900px;
+}
+
+.cuerpo img{
+width: 40%;
+margin-right: 7px;
+}
+
+.mqhimg{
+  width: 400px;
+
+}
+.titulito{
+  font-size: 28px;
+}
+
+.cuerpo2 p{
+  font-size: 20px;
+}
+
+.redes span{
+  font-size: 30px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.arriba{
+  font-size: 20px;
+}
+
+}
+
+
+@media (min-width: 1000px) {
+
+
+  li{
+    margin-left: 5%;
+    margin-right: 4%;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: inherit;
+  }
+
+  .texto1{
+  font-size: 30px;
+  }
+  .texto2{
+    font-size: 24px;
+  }
+
+  .navicono{
+    display: none;
+  }
+.cuerpo img{
+  width: 40%;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.mqhimg{
+  width: 500px;
+}
+
+.titulito{
+  font-size: 33px;
+}
+.cuerpo2 p{
+  font-size: 25px;
+}
+
+.redes span{
+}
+.contenedor{
+  position: fixed;
+  width: 100%;
+
+}
+.separador{
+  margin-top: 14vw;
+  position: fixed;
+}
+.arriba{
+  display: inline;
+}
+}
+
+
+
+@media (min-width:1290px) {
+
+
+body{
+  margin-top: 70px;
+}
+  .titulo{
+    font-family: 'Pacifico',cursive;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+
+  }
+
+  li{
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 7.5%;
+    margin-right: 6%;
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: inherit;
+  }
+
+  li a{
+  display: inline-block;
+  color: blue;
+  font-family: 'Jua', sans-serif;
+  text-decoration: underline;
+  }
+
+ul{
+
+}
+
+  .cuerpo{
+    clear: both;
+    height: 1000px;
+    margin-top: 20px;
+    margin-bottom: -300px;
+  }
+
+  .cuerpo2{
+    clear: both;
+    height: 1000px;
+    margin-top: -150px;
+    margin-top: -250px;
+  }
+
+
+  .cuerpo img{
+    float: left;
+    margin: 30px;
+    width: 350px;
+    margin-top: 180px;
+  }
+
+  .mqhimg{
+    height: 217px;
+    width: 503px;
+    margin-top: 120px;
+  }
+
+  .cuerpo2 p{
+    margin-left: 5px;
+    font-size: 22px;
+    color: black;
+  }
+
+  .titulito {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+  .arriba{
+    font-size: 20px;
+    border: solid 1.5px blue;
+    padding: 5px 5px;
+    float: right;
+    margin-right: 25px;
+  }
+
+  .borde{
+    margin-left: 4px;
+    margin-top: 5px;
+
+  }
+
+
+  .texto1 {
+    font-size: 30px;
+    margin-left: 30px;
+
+  }
+
+  .texto2{
+  font-size: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-top: 150px;
+  }
+ .navicono{
+   display: none;
+ }
+
+.redes span{
+  margin-bottom: 5px;
+  margin-right: 55px;
+  margin-left: -32px;
+  font-size: 25px;
+}
+
+.contenedor{
+  position: fixed;
+  width: 100%;
+  margin-top: -70px;
+
+}
+
+.separador{
+  margin-top: 70px;
+  position: fixed;
+}
+.separador2{
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 150px;
+
+}
+.libroo{
+  width: 28vw;
+  height: 20vw;
+}
+
+}
